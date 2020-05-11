@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CondorSports</string>
+    <string name="app_label">Condor Sports</string>
+    <string name="since_label">Since</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="list_of_teams_label">List of Teams</string>
+    <string name="team_details_label">Team Details</string>
+
+
+    <string name="demo_league_name">Spanish La Liga</string>
+    <string name="demo_team_name">Atl\u00e9tico de Madrid, Atletico Madrid</string>
+    <string name="demo_stadium_name">Wanda Metropolitano</string>
+    <string name="demo_team_description">Athletic Club (Basque: Athletic Kluba), also commonly known as Athletic Bilbao (Basque: Bilboko Athletic Kluba \/ Spanish: Athletic de Bilbao), is a professional football club, based in Bilbao, Basque Country, Spain.\r\n\r\nThey are known as Los Leones (The Lions) because their stadium was built near a church called San Mam\u00e9s (Saint Mammes). Mammes was a semi-legendary early Christian thrown to the lions by the Romans. Mammes pacified the lions and was later made a saint.\r\n\r\nThe club is one of three founding members of the Primera Divisi\u00f3n that have never been relegated from the top division, the others being Real Madrid and Barcelona. Athletic have won La Liga on eight occasions, fourth most in the history of the league. In the table of Copa del Rey titles, Athletic is second only to Barcelona, having won it 24 times (per the team\'s official records; the Royal Spanish Football Federation (RFEF) recognizes 23 victories). The club also has one of the most successful women\'s teams in Spain, which has won five championships in the Primera Divisi\u00f3n Femenina.\r\n\r\nThe club is known for its cantera policy of bringing young Basque players through the ranks, as well as recruiting top Basque players from other clubs (like Joseba Etxeberria and Javi Mart\u00ednez). Athletic\'s official policy is signing professional players native to or trained in football in the greater Basque Country, including Biscay, Gipuzkoa, \u00c1lava and Navarre (in Spain); and Labourd, Soule and Lower Navarre (in France). Since its foundation, Athletic has played exclusively with players meeting the criteria to be deemed as Basque players, and has been one of the most successful teams of La Liga. This can be seen as a unique case in European football; it has gained Athletic both admirers and critics. The club has been praised for promoting home grown players and club loyalty. Athletic is one of only three professional clubs in Spain in La Liga (the others being Real Madrid, and Barcelona) that is not a sports corporation; it is owned and operated by its club members.\r\n\r\nAthletic\'s main rivals are Real Sociedad, against whom it plays the Basque derby, and Real Madrid, due to sport and political rivalry.</string>
+    <string name="demo_formed_year">1929</string>
+    <string name="demo_youtube_link">www.youtube.com\/user\/clubatleticodemadrid</string>
+</resources>

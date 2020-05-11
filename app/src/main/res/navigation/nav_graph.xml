@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SplashFragment">
+
+    <fragment
+        android:id="@+id/TeamListFragment"
+        android:name="com.gabo.condorsports.presentation.team_list.TeamListFragment"
+        android:label="@string/list_of_teams_label"
+        tools:layout="@layout/team_list">
+
+        <action
+            android:id="@+id/action_from_team_list_to_team_details"
+            app:destination="@id/TeamDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/TeamDetailsFragment"
+        android:name="com.gabo.condorsports.presentation.team_details.TeamDetailsFragment"
+        android:label="@string/team_details_label"
+        tools:layout="@layout/team_details">
+
+        <action
+            android:id="@+id/action_from_team_details_to_team_list"
+            app:destination="@id/TeamListFragment" />
+        <argument
+            android:name="teamId"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/SplashFragment"
+        android:name="com.gabo.condorsports.presentation.splash.SplashFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/splash_fragment" >
+        <action
+            android:id="@+id/action_from_splash_to_team_list"
+            app:destination="@id/TeamListFragment" />
+    </fragment>
+</navigation>
